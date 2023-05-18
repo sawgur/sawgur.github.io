@@ -1,19 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
-	<title> The SagBlog </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Table - An Epic Table</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <py-script>
+  <header style="padding-bottom: 40px;">
+    <nav>
+      <div class="container" >
+        <h1 class="logo" >Table</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-        print("wsg cuh")
+  <div class="hero">
+    <div class="container">
+      <h2 class="hero-title animate" style="color: black;">The Table</h2>
+      <p class="hero-description animate" style="color: black">woah so cool!1</p>
+      <a href="#contact" class="btn animate">Contact Us</a>
+    </div>
+  </div>
 
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title animate">About The Table</h2>
+      <p class="section-description animate">The Table is just a so cool group of table-goers that go to table! (Sometimes -- school is not a priority, so!)</p>
+    </div>
+  </section>
 
+  <section id="features">
+    <div class="container">
+      <h2 class="section-title animate">Features</h2>
+      <ul class="features-list">
+        <li class="animate">
+          <img src="gun-detection-icon.png" alt="Legs Icon" style="width: 100px; height:100px;">
+          <h3 class="feature-title">Perfect Stability</h3>
+          <p class="feature-description">With 4 legs (sometimes 6, dependes on which quarter of the school year), The Table is a table that will never fall apart or fall over unless someone pushes it..</p>
+        </li>
+        <li class="animate">
+          <img src="school-security-icon.png" alt="Zooming Icon" style="width: 100px; height:100px;">
+          <h3 class="feature-title">Continental Drift</h3>
+          <p class="feature-description">Yep, it moves! Somehow, it drifts continentally faster that those pesky continents, don't ask me, I'm just a website chatgpot</p>
+        </li>
+        <li class="animate">
+          <img src="easy-integration-icon.png" alt="Obnoxiously Loud Icon"style="width: 100px; height:100px;">
+          <h3 class="feature-title">So Loud and Giggles</h3>
+          <p class="feature-description">With such energy, not even the PhD teacher can shut up Sagar, and consequently, this table is always the loudest in any room unless David Cobbey is in the room but still sometimes, so.. !</p>
+        </li>
+      </ul>
+    </div>
+  </section>
 
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title animate">Contact Us</h2>
+      <p class="section-description animate">Have questions or want to know more about Tables? Get in touch with our Table.</p>
+      <form class="contact-form animate">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Table" required>
+        <textarea placeholder="Your Tabular Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </div>
+  </section>
 
+<footer>
+  <div class="container">
+    <p>&copy; 2023 leTable. All rights reserved to Gallow!.</p>
+  </div>
+</footer>
 
-    </py-script>
+<script src="script.js"></script>
 </body>
 </html>
